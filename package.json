@@ -1,0 +1,23 @@
+{
+  "name": "1-discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "16.13.0"
+  },
+  "author": "Valeria Luque",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.7.5",
+    "@iamtraction/google-translate": "^1.1.2",
+    "discord.js": "^13.3.1",
+    "ffmpeg-static": "^4.4.0",
+    "images-scraper": "^6.4.0",
+    "libsodium-wrappers": "^0.7.9",
+    "superagent": "^6.1.0"
+  }
+}
