@@ -74,8 +74,8 @@ client.on('messageCreate', async message => {
     const command = args.shift().toLowerCase();
 
 
-    if (command === 'ping') {
-        client.commands.get('ping').execute(message, args);
+    if (command === 'fabioputo') {
+        client.commands.get('fabioputo').execute(message, args);
     }
     else if (command === 'kick') {
         client.commands.get('kick').execute(message, args);
@@ -160,11 +160,11 @@ client.on('messageCreate', async message => {
 
         
     }
-    else if (command === 'translate') {
+    else if (command === 'tr') {
         client.commands.get('translate').execute(message, args, Discord);
 
     }
-    else if (command === 'image') {
+    else if (command === 'img') {
         client.commands.get('image').execute(message, args, Discord);
 
     }

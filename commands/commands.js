@@ -8,9 +8,21 @@ module.exports={
         .setURL('https://youtube.com')
         .setDescription('This is a embed ')
         .addFields(
-            {name: '!commands', value: 'be nice'},
-            {name: '!echaleunamano', value: 'be nice'},
-            {name: '!echaleunojo', value: 'be nicssse'},
+            {name: '!commands', value: 'Comandos para el bot :)'},
+            {name: '!anuncio', value: 'Campaña PVL'},
+            {name: '!img', value: 'Comando para buscar una imagen random de Google con el argumento ingresado, prueben con pija xd'},
+            {name: '!tr', value: 'Comando para traducir texto ingresado a lenguaje especifico(!tr en hola = hello)'},
+            {name: '!g', value: 'Arroja el primer resultado de google con el argumento ingresado, similar a "Estoy de suerte".'},
+            {name: '!pedrito', value: 'Probablemente la mejor función de este bot.'},
+            {name: '!echaleunamano', value: 'Echas una mano a Darka.'},
+            {name: '!echaleunojo', value: 'Echas un ojo a Bifrost.'},
+            {name: '!echaleunpañuelo', value: 'Echas un pañuelo a Juli.'},
+            {name: '!echaleunbozal', value: 'Echas un bozal a Pepe Grillo.'},
+            {name: '!fabiofulbo', value: 'Fabio dando lástima.'},
+
+
+
+
 
 
         )
