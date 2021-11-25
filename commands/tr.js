@@ -1,7 +1,7 @@
 const traductor = require("@iamtraction/google-translate");
 
 module.exports={
-    name: 'translate',
+    name: 'tr',
     description: "",
     execute(message,args, Discord){
         // const query = args.join(" ");

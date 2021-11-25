@@ -7,7 +7,7 @@ const google = new Scraper({
 })
 
 module.exports={
-    name: 'image',
+    name: 'img',
     description: "",
    async execute(message,args, Discord){
        const image_query = args.join(' ');

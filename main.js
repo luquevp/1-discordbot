@@ -161,14 +161,17 @@ client.on('messageCreate', async message => {
         
     }
     else if (command === 'tr') {
-        client.commands.get('translate').execute(message, args, Discord);
+        client.commands.get('tr').execute(message, args, Discord);
 
     }
     else if (command === 'img') {
-        client.commands.get('image').execute(message, args, Discord);
+        client.commands.get('img').execute(message, args, Discord);
 
     }
-   
+    else if (command === 'anuncio') {
+        client.commands.get('anuncio').execute(message, args, Discord);
+
+    }
    
 
 });
